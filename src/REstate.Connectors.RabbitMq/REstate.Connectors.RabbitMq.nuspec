@@ -13,5 +13,11 @@
     <tags>REstate</tags>
     <dependencies>
     </dependencies>
+    <files>
+      <file src="bin\Release\REstate.Connectors.RabbitMq.dll" target="lib\net461" />
+      <file src="bin\Release\REstate.Connectors.RabbitMq.dll" target="lib\restate-plugin" />
+      <file src="bin\Release\Polly.dll" target="lib\restate-plugin" />
+      <file src="bin\Release\RabbitMQ.Client.dll" target="lib\restate-plugin" />
+    </files>
   </metadata>
 </package>
