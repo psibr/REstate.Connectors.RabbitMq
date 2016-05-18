@@ -52,7 +52,7 @@
     </Reference>
     <Reference Include="REstate.Platform, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\REstate.Platform.1.0.1\lib\net461\REstate.Platform.dll</HintPath>
+      <HintPath>..\packages\REstate.Platform.1.0.1\lib\net461\REstate.Platform.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
