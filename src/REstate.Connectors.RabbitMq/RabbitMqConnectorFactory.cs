@@ -28,6 +28,9 @@ namespace REstate.Connectors.RabbitMq
         }
         
         string IConnectorFactory.ConnectorKey => ConnectorKey;
+        public bool IsActionConnector { get; } = true;
+        public bool IsGuardConnector { get; } = false;
+        public string ConnectorSchema { get; set; } = "{ }";
 
         public static string ConnectorKey => "REstate.Connectors.RabbitMq";
     }
